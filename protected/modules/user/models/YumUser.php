@@ -290,14 +290,15 @@ class YumUser extends YumActiveRecord
 	}
 
 	public function hasRole($role_title)
-	{
+	{                
 		if (!Yum::hasModule('role'))
 			return false;
 
 		Yii::import('application.modules.role.models.*');
 
 		$roles = $this->roles;
-
+                //var_dump($roles);
+                //die();
 		if(Yum::hasModule('membership')) {
 			foreach($this->getActiveMemberships() as $membership)
 				$roles[] = $membership;
@@ -782,5 +783,12 @@ class YumUser extends YumActiveRecord
 			$return .= '</div><!-- avatar -->';			
                         return $return;                        
 		}
+	}
+        
+        public function isLawyer()
+	{
+                if (!Yii::app()->user->isGuest && ($this->isLawyer == 1))
+                    return true;
+                else return false;           
 	}
 }

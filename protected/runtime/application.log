@@ -2678,3 +2678,384 @@ Stack trace:
 REQUEST_URI=/yum/index.php?r=profile/privacy/index
 HTTP_REFERER=http://localhost/yum/index.php?r=profile/privacy/update
 ---
+2014/04/25 14:34:22 [warning] [application] Failed to set unsafe attribute "YumUser" of "YumRole".
+in C:\OpenServer\domains\localhost\YUM\protected\modules\role\controllers\YumRoleController.php (51)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/25 14:51:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yser".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('yser')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=yser
+---
+2014/04/25 14:52:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lawyer/becomelawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer/bec...')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
+---
+2014/04/25 14:52:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lawyer/becomeLawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer/bec...')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomeLawyer
+---
+2014/04/25 14:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lawyer/BecomeLawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer/Bec...')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer/BecomeLawyer
+---
+2014/04/25 14:55:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loginByEmail".' in C:\OpenServer\domains\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CController.php(270): CController->missingAction('loginByEmail')
+#1 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('loginByEmail')
+#2 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/auth/login...')
+#3 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yum/index.php?r=user/auth/loginByEmail
+---
+2014/04/25 14:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "auth/login".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('auth/login')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=auth/login
+---
+2014/04/25 14:58:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer
+---
+2014/04/25 14:58:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer
+---
+2014/04/25 14:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer
+---
+2014/04/25 15:01:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer
+---
+2014/04/25 15:01:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer
+---
+2014/04/25 15:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/lawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer
+---
+2014/04/25 15:08:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\OpenServer\domains\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer')
+#3 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer
+---
+2014/04/25 15:08:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\OpenServer\domains\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer')
+#3 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer
+---
+2014/04/25 15:08:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\OpenServer\domains\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer')
+#3 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer
+---
+2014/04/25 15:08:40 [error] [php] include(User.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\OpenServer\domains\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php(29): spl_autoload_call()
+#1 C:\OpenServer\domains\yii\framework\web\actions\CInlineAction.php(49): YumLawyerController->actionBecomeLawyer()
+#2 C:\OpenServer\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(133): YumLawyerController->runAction()
+#4 C:\OpenServer\domains\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\OpenServer\domains\yii\framework\web\filters\CInlineFilter.php(58): YumLawyerController->filterAccessControl()
+#7 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\OpenServer\domains\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\OpenServer\domains\yii\framework\web\CController.php(265): YumLawyerController->runActionWithFilters()
+#10 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): YumLawyerController->run()
+#11 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\localhost\YUM\index.php(13): CWebApplication->run()
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php (29)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/25 15:10:03 [error] [php] Non-static method YumUser::hasRole() should not be called statically, assuming $this from incompatible context (C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php:30)
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(133): YumLawyerController->runAction()
+#1 C:\OpenServer\domains\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\OpenServer\domains\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\OpenServer\domains\yii\framework\web\filters\CInlineFilter.php(58): YumLawyerController->filterAccessControl()
+#4 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\OpenServer\domains\yii\framework\web\CController.php(265): YumLawyerController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): YumLawyerController->run()
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\localhost\YUM\index.php(13): CWebApplication->run()
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php (30)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/25 15:11:13 [error] [php] include(C:\OpenServer\domains\localhost\YUM\protected\modules\user\modules\YumUser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\OpenServer\domains\yii\framework\YiiBase.php:395)
+Stack trace:
+#0 C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php(12): spl_autoload_call()
+#1 C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php(153): YumWebUser->data()
+#2 C:\OpenServer\domains\localhost\YUM\protected\modules\user\UserModule.php(239): YumWebUser->isAdmin()
+#3 C:\OpenServer\domains\yii\framework\web\CController.php(263): UserModule->beforeControllerAction()
+#4 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): YumLawyerController->run()
+#5 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\OpenServer\domains\localhost\YUM\index.php(13): CWebApplication->run()
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php (12)
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php (153)
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\UserModule.php (239)
+2014/04/25 15:11:35 [error] [php] Non-static method YumUser::hasRole() should not be called statically, assuming $this from incompatible context (C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php:31)
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(133): YumLawyerController->runAction()
+#1 C:\OpenServer\domains\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\OpenServer\domains\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\OpenServer\domains\yii\framework\web\filters\CInlineFilter.php(58): YumLawyerController->filterAccessControl()
+#4 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\OpenServer\domains\yii\framework\web\CController.php(265): YumLawyerController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): YumLawyerController->run()
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\localhost\YUM\index.php(13): CWebApplication->run()
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php (31)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/25 15:42:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'yum'' in C:\OpenServer\domains\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\OpenServer\domains\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\OpenServer\domains\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\OpenServer\domains\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php(12): CActiveRecord->findByPk('3')
+#8 C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php(153): YumWebUser->data()
+#9 C:\OpenServer\domains\localhost\YUM\protected\modules\user\UserModule.php(239): YumWebUser->isAdmin()
+#10 C:\OpenServer\domains\yii\framework\web\CController.php(263): UserModule->beforeControllerAction(Object(YumLawyerController), Object(CInlineAction))
+#11 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('becomelawyer')
+#12 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer/bec...')
+#13 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
+---
+2014/04/25 15:42:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pravio.yum_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `yum_user`.
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\models\YumActiveRecord.php (49)
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php (12)
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php (153)
+2014/04/25 15:42:45 [error] [exception.CDbException] exception 'CDbException' with message 'The table "yum_user" for active record class "YumUser" cannot be found in the database.' in C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(YumUser))
+#1 C:\OpenServer\domains\localhost\YUM\protected\modules\user\models\YumActiveRecord.php(49): CActiveRecord->getMetaData()
+#2 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(658): YumActiveRecord->getMetaData()
+#3 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(1485): CActiveRecord->getTableSchema()
+#4 C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php(12): CActiveRecord->findByPk('3')
+#5 C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php(153): YumWebUser->data()
+#6 C:\OpenServer\domains\localhost\YUM\protected\modules\user\UserModule.php(239): YumWebUser->isAdmin()
+#7 C:\OpenServer\domains\yii\framework\web\CController.php(263): UserModule->beforeControllerAction(Object(YumLawyerController), Object(CInlineAction))
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('becomelawyer')
+#9 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer/bec...')
+#10 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
+---
+2014/04/25 15:45:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "creat".' in C:\OpenServer\domains\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CController.php(270): CController->missingAction('creat')
+#1 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('creat')
+#2 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('role/permission...')
+#3 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yum/index.php?r=role/permission/creat
+---
+2014/04/25 15:45:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pravio.yum_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `yum_user`.
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\models\YumActiveRecord.php (49)
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php (12)
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php (153)
+2014/04/25 15:45:17 [error] [exception.CDbException] exception 'CDbException' with message 'The table "yum_user" for active record class "YumUser" cannot be found in the database.' in C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(YumUser))
+#1 C:\OpenServer\domains\localhost\YUM\protected\modules\user\models\YumActiveRecord.php(49): CActiveRecord->getMetaData()
+#2 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(658): YumActiveRecord->getMetaData()
+#3 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(1485): CActiveRecord->getTableSchema()
+#4 C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php(12): CActiveRecord->findByPk('1')
+#5 C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php(153): YumWebUser->data()
+#6 C:\OpenServer\domains\localhost\YUM\protected\modules\user\UserModule.php(239): YumWebUser->isAdmin()
+#7 C:\OpenServer\domains\yii\framework\web\CController.php(263): UserModule->beforeControllerAction(Object(YumUserController), Object(CInlineAction))
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('profile')
+#9 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user/profi...')
+#10 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yum/index.php?r=user/user/profile&view=about
+HTTP_REFERER=http://localhost/yum/index.php?r=role/permission/creat
+---
+2014/04/25 15:45:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pravio.yum_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `yum_user`.
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\models\YumActiveRecord.php (49)
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php (12)
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php (153)
+2014/04/25 15:45:42 [error] [exception.CDbException] exception 'CDbException' with message 'The table "yum_user" for active record class "YumUser" cannot be found in the database.' in C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(YumUser))
+#1 C:\OpenServer\domains\localhost\YUM\protected\modules\user\models\YumActiveRecord.php(49): CActiveRecord->getMetaData()
+#2 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(658): YumActiveRecord->getMetaData()
+#3 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(1485): CActiveRecord->getTableSchema()
+#4 C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php(12): CActiveRecord->findByPk('1')
+#5 C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php(153): YumWebUser->data()
+#6 C:\OpenServer\domains\localhost\YUM\protected\modules\user\UserModule.php(239): YumWebUser->isAdmin()
+#7 C:\OpenServer\domains\yii\framework\web\CController.php(263): UserModule->beforeControllerAction(Object(YumUserController), Object(CInlineAction))
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('profile')
+#9 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user/profi...')
+#10 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yum/index.php?r=user/user/profile&view=about
+HTTP_REFERER=http://localhost/yum/index.php?r=role/permission/creat
+---
+2014/04/25 16:17:06 [error] [exception.CException] exception 'CException' with message 'YumUser and its behaviors do not have a method or closure named "getRols".' in C:\OpenServer\domains\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getRols', Array)
+#1 C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php(29): CActiveRecord->__call('getRols', Array)
+#2 C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php(29): YumUser->getRols()
+#3 C:\OpenServer\domains\yii\framework\web\actions\CInlineAction.php(49): YumLawyerController->actionBecomeLawyer()
+#4 C:\OpenServer\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\OpenServer\domains\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\OpenServer\domains\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\OpenServer\domains\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('becomelawyer')
+#13 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer/bec...')
+#14 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
+---
+2014/04/25 16:28:23 [error] [php] Non-static method YumWebUser::getRoles() should not be called statically, assuming $this from incompatible context (C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php:29)
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(133): YumLawyerController->runAction()
+#1 C:\OpenServer\domains\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\OpenServer\domains\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\OpenServer\domains\yii\framework\web\filters\CInlineFilter.php(58): YumLawyerController->filterAccessControl()
+#4 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\OpenServer\domains\yii\framework\web\CController.php(265): YumLawyerController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): YumLawyerController->run()
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\localhost\YUM\index.php(13): CWebApplication->run()
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php (29)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/25 16:41:42 [error] [php] Non-static method YumWebUser::hasRole() should not be called statically, assuming $this from incompatible context (C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php:30)
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(133): YumLawyerController->runAction()
+#1 C:\OpenServer\domains\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\OpenServer\domains\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\OpenServer\domains\yii\framework\web\filters\CInlineFilter.php(58): YumLawyerController->filterAccessControl()
+#4 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\OpenServer\domains\yii\framework\web\CController.php(265): YumLawyerController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): YumLawyerController->run()
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\localhost\YUM\index.php(13): CWebApplication->run()
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php (30)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/25 16:43:02 [error] [php] Non-static method YumWebUser::hasRole() should not be called statically, assuming $this from incompatible context (C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php:30)
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(133): YumLawyerController->runAction()
+#1 C:\OpenServer\domains\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\OpenServer\domains\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\OpenServer\domains\yii\framework\web\filters\CInlineFilter.php(58): YumLawyerController->filterAccessControl()
+#4 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\OpenServer\domains\yii\framework\web\CController.php(265): YumLawyerController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): YumLawyerController->run()
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\localhost\YUM\index.php(13): CWebApplication->run()
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php (30)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/25 16:48:31 [error] [exception.CException] exception 'CException' with message 'Property "YumRole.roles" is not defined.' in C:\OpenServer\domains\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('roles')
+#1 C:\OpenServer\domains\localhost\YUM\protected\modules\user\components\YumWebUser.php(59): CActiveRecord->__get('roles')
+#2 C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumLawyerController.php(30): YumWebUser::hasRoles()
+#3 C:\OpenServer\domains\yii\framework\web\actions\CInlineAction.php(49): YumLawyerController->actionBecomeLawyer()
+#4 C:\OpenServer\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\OpenServer\domains\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\OpenServer\domains\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\OpenServer\domains\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('becomelawyer')
+#13 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/lawyer/bec...')
+#14 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
+---

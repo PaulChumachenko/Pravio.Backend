@@ -30,6 +30,7 @@ $this->renderPartial('/message/write_a_message', array(
 <div class="clear"></div>
 
 <?php
+echo $model->isLawyer() ? "<h2>I'm a LAWYER</h2>" : "<h2>Fucking lawyer</h2>" ;
 if(Yum::module('profile')->enableProfileComments
 		&& Yii::app()->controller->action->id != 'update'
 		&& isset($model->profile))

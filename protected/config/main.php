@@ -22,35 +22,35 @@ return array(
 	'modules'=>array(
 		'user' => array(
                 'debug' => false,
-                'userTable' => 'yum_user',
-                'translationTable' => 'yum_translation',
+                'userTable' => 'pravdb_user',
+                'translationTable' => 'pravdb_translation',
                 ),
                 'usergroup' => array(
-                'usergroupTable' => 'yum_usergroup',
-                'usergroupMessageTable' => 'yum_user_group_message',
+                'usergroupTable' => 'pravdb_usergroup',
+                'usergroupMessageTable' => 'pravdb_user_group_message',
                 ),
                 /*'membership' => array(
-                'membershipTable' => 'yum_membership',
-                'paymentTable' => 'yum_payment',
+                'membershipTable' => 'pravdb_membership',
+                'paymentTable' => 'pravdb_payment',
                 ),*/
                 'friendship' => array(
-                'friendshipTable' => 'yum_friendship',
+                'friendshipTable' => 'pravdb_friendship',
                 ),
                 'profile' => array(
-                'privacySettingTable' => 'yum_privacysetting',
-                'profileFieldTable' => 'yum_profile_field',
-                'profileTable' => 'yum_profile',
-                'profileCommentTable' => 'yum_profile_comment',
-                'profileVisitTable' => 'yum_profile_visit',
+                'privacySettingTable' => 'pravdb_privacysetting',
+                'profileFieldTable' => 'pravdb_profile_field',
+                'profileTable' => 'pravdb_profile',
+                'profileCommentTable' => 'pravdb_profile_comment',
+                'profileVisitTable' => 'pravdb_profile_visit',
                 ),
-                'role' => array(
-                'roleTable' => 'yum_role',
-                'userRoleTable' => 'yum_user_role',
-                'actionTable' => 'yum_action',
-                'permissionTable' => 'yum_permission',
-                ),
+                /*'role' => array(
+                'roleTable' => 'pravdb_role',
+                'userRoleTable' => 'pravdb_user_role',
+                'actionTable' => 'pravdb_action',
+                'permissionTable' => 'pravdb_permission',
+                ),*/
                 /*'message' => array(
-                'messageTable' => 'yum_message',
+                'messageTable' => 'pravdb_message',
                 ),*/
                 'registration' =>array(
                     'enableActivationConfirmation'=>true,
@@ -83,12 +83,12 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=yum',
+			'connectionString' => 'mysql:host=localhost;dbname=pravio',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
-                        'tablePrefix' => 'yum_',
+                        'tablePrefix' => 'pravdb_',
 		),
 		
 		'errorHandler'=>array(

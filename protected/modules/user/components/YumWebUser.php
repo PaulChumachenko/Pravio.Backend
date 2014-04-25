@@ -53,11 +53,15 @@ class YumWebUser extends CWebUser
 		$user = YumUser::model()->cache(500)->findByPk($uid);
 
 		$flag = false;
-		if(isset($user->roles))
-			foreach($user->roles as $role) 
-				if (isset($role->roles) && $role->roles !== array())
+		if(isset($user->roles))                        
+			foreach($user->roles as $role)
+                        {
+                            //var_dump($role->roles);
+                            if (isset($role->roles) && $role->roles !== array())
 					$flag = true;
-
+                        }
+				
+                //die();
 		return $flag;
 	}
 
@@ -115,8 +119,8 @@ public function getRoles() {
 
 			if(!is_array($role))
 				$role = array ($role);
-
-			if($uid && $user = YumUser::model()->with('roles')->find(
+                            
+                            if($uid && $user = YumUser::model()->with('roles')->find(
 						't.id = '.$uid)) {
 				// Check if a user has a active membership and, if so, add this
 				// to the roles
