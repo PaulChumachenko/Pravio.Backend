@@ -10,7 +10,7 @@ Yum::renderFlash();
 ?>
 
 <div id="profile">
-
+<?php echo 'Development YUM'; ?>
 <?php echo $model->getAvatar(); ?>
 <?php $this->renderPartial(Yum::module('profile')->publicFieldsView, array(
 			'profile' => $model->profile)); ?>
