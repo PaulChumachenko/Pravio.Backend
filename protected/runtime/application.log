@@ -1,0 +1,328 @@
+2014/04/25 13:40:33 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getConnection".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CComponent->__call('getConnection', Array)
+#1 C:\xampp\yii\framework\db\CDbCommand.php(1324): SiteController->getConnection()
+#2 C:\xampp\htdocs\Pravio.Backend\protected\controllers\SiteController.php(33): CDbCommand->createTable('{{question}}', Array)
+#3 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Pravio.Backend/
+---
+2014/04/25 13:45:04 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getConnection".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CComponent->__call('getConnection', Array)
+#1 C:\xampp\yii\framework\db\CDbCommand.php(1324): SiteController->getConnection()
+#2 C:\xampp\htdocs\Pravio.Backend\protected\controllers\SiteController.php(34): CDbCommand->createTable('{{question}}', Array)
+#3 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Pravio.Backend/
+---
+2014/04/25 13:45:43 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getConnection".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CComponent->__call('getConnection', Array)
+#1 C:\xampp\yii\framework\db\CDbCommand.php(1324): SiteController->getConnection()
+#2 C:\xampp\htdocs\Pravio.Backend\protected\controllers\SiteController.php(35): CDbCommand->createTable('{{question}}', Array)
+#3 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Pravio.Backend/
+---
+2014/04/25 13:45:45 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getConnection".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CComponent->__call('getConnection', Array)
+#1 C:\xampp\yii\framework\db\CDbCommand.php(1324): SiteController->getConnection()
+#2 C:\xampp\htdocs\Pravio.Backend\protected\controllers\SiteController.php(35): CDbCommand->createTable('{{question}}', Array)
+#3 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Pravio.Backend/
+---
+2014/04/25 13:47:03 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getConnection".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CComponent->__call('getConnection', Array)
+#1 C:\xampp\yii\framework\db\CDbCommand.php(1324): SiteController->getConnection()
+#2 C:\xampp\htdocs\Pravio.Backend\protected\controllers\SiteController.php(35): CDbCommand->createTable('{{question}}', Array)
+#3 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Pravio.Backend/
+---
+2014/04/25 13:47:04 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getConnection".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CComponent->__call('getConnection', Array)
+#1 C:\xampp\yii\framework\db\CDbCommand.php(1324): SiteController->getConnection()
+#2 C:\xampp\htdocs\Pravio.Backend\protected\controllers\SiteController.php(35): CDbCommand->createTable('{{question}}', Array)
+#3 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Pravio.Backend/
+---
+2014/04/25 13:47:05 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getConnection".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CComponent->__call('getConnection', Array)
+#1 C:\xampp\yii\framework\db\CDbCommand.php(1324): SiteController->getConnection()
+#2 C:\xampp\htdocs\Pravio.Backend\protected\controllers\SiteController.php(35): CDbCommand->createTable('{{question}}', Array)
+#3 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Pravio.Backend/
+---
+2014/04/25 13:47:05 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getConnection".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CComponent->__call('getConnection', Array)
+#1 C:\xampp\yii\framework\db\CDbCommand.php(1324): SiteController->getConnection()
+#2 C:\xampp\htdocs\Pravio.Backend\protected\controllers\SiteController.php(35): CDbCommand->createTable('{{question}}', Array)
+#3 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Pravio.Backend/
+---
+2014/04/25 13:47:05 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getConnection".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CComponent->__call('getConnection', Array)
+#1 C:\xampp\yii\framework\db\CDbCommand.php(1324): SiteController->getConnection()
+#2 C:\xampp\htdocs\Pravio.Backend\protected\controllers\SiteController.php(35): CDbCommand->createTable('{{question}}', Array)
+#3 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Pravio.Backend/
+---
+2014/04/25 13:47:05 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getConnection".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CComponent->__call('getConnection', Array)
+#1 C:\xampp\yii\framework\db\CDbCommand.php(1324): SiteController->getConnection()
+#2 C:\xampp\htdocs\Pravio.Backend\protected\controllers\SiteController.php(35): CDbCommand->createTable('{{question}}', Array)
+#3 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Pravio.Backend/
+---
+2014/04/25 13:47:29 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getConnection".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CComponent->__call('getConnection', Array)
+#1 C:\xampp\yii\framework\db\CDbCommand.php(1324): SiteController->getConnection()
+#2 C:\xampp\htdocs\Pravio.Backend\protected\controllers\SiteController.php(35): CDbCommand->createTable('question', Array)
+#3 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Pravio.Backend/
+---
+2014/04/25 13:47:34 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getConnection".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CComponent->__call('getConnection', Array)
+#1 C:\xampp\yii\framework\db\CDbCommand.php(1324): SiteController->getConnection()
+#2 C:\xampp\htdocs\Pravio.Backend\protected\controllers\SiteController.php(35): CDbCommand->createTable('question', Array)
+#3 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Pravio.Backend/
+---
+2014/04/25 13:58:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pravio.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2014/04/25 14:12:53 [error] [exception.CException] exception 'CException' with message 'QuestionController cannot find the requested view "index".' in C:\xampp\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\Pravio.Backend\protected\modules\question\controllers\QuestionController.php(7): CController->render('index')
+#2 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): QuestionController->actionIndex()
+#3 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('question')
+#8 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Pravio.Backend/index.php/question
+---
+2014/04/25 15:09:31 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'author_fk_users_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `pravdb_question` DROP FOREIGN KEY `author_fk_users_id`.
+2014/04/25 15:09:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'author_fk_users_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `pravdb_question` DROP FOREIGN KEY `author_fk_users_id`' in C:\xampp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1447): CDbCommand->execute()
+#1 C:\xampp\yii\framework\db\CDbMigration.php(361): CDbCommand->dropForeignKey('author_fk_users...', '{{question}}')
+#2 C:\xampp\htdocs\Pravio.Backend\protected\migrations\m140425_115303_create_question_table.php(20): CDbMigration->dropForeignKey('author_fk_users...', '{{question}}')
+#3 C:\xampp\yii\framework\cli\commands\MigrateCommand.php(410): m140425_115303_create_question_table->down()
+#4 C:\xampp\yii\framework\cli\commands\MigrateCommand.php(181): MigrateCommand->migrateDown('m140425_115303_...')
+#5 [internal function]: MigrateCommand->actionRedo(Array)
+#6 C:\xampp\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\xampp\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 C:\xampp\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#10 C:\xampp\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\xampp\htdocs\Pravio.Backend\protected\yiic.php(7): require_once('C:\\xampp\\yii\\fr...')
+#12 {main}
+---
+2014/04/25 15:10:44 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1215 Cannot add foreign key constraint. The SQL statement executed was: ALTER TABLE `pravdb_question` ADD CONSTRAINT `author_fk_users_id` FOREIGN KEY (`author`) REFERENCES `pravdb_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE.
+2014/04/25 15:10:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1215 Cannot add foreign key constraint. The SQL statement executed was: ALTER TABLE `pravdb_question` ADD CONSTRAINT `author_fk_users_id` FOREIGN KEY (`author`) REFERENCES `pravdb_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE' in C:\xampp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1435): CDbCommand->execute()
+#1 C:\xampp\yii\framework\db\CDbMigration.php(348): CDbCommand->addForeignKey('author_fk_users...', '{{question}}', 'author', '{{user}}', 'id', 'CASCADE', 'CASCADE')
+#2 C:\xampp\htdocs\Pravio.Backend\protected\migrations\m140425_115303_create_question_table.php(15): CDbMigration->addForeignKey('author_fk_users...', '{{question}}', 'author', '{{user}}', 'id', 'CASCADE', 'CASCADE')
+#3 C:\xampp\yii\framework\cli\commands\MigrateCommand.php(385): m140425_115303_create_question_table->up()
+#4 C:\xampp\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m140425_115303_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\xampp\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\xampp\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 C:\xampp\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#10 C:\xampp\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\xampp\htdocs\Pravio.Backend\protected\yiic.php(7): require_once('C:\\xampp\\yii\\fr...')
+#12 {main}
+---
+2014/04/25 15:27:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'pravdb_question' already exists. The SQL statement executed was: CREATE TABLE `pravdb_question` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`topic` varchar(255) not null,
+	`question` text not null,
+	`author` int UNSIGNED,
+	`private` tinyint(1)
+).
+2014/04/25 15:27:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'pravdb_question' already exists. The SQL statement executed was: CREATE TABLE `pravdb_question` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`topic` varchar(255) not null,
+	`question` text not null,
+	`author` int UNSIGNED,
+	`private` tinyint(1)
+)' in C:\xampp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1324): CDbCommand->execute()
+#1 C:\xampp\yii\framework\db\CDbMigration.php(233): CDbCommand->createTable('{{question}}', Array, NULL)
+#2 C:\xampp\htdocs\Pravio.Backend\protected\migrations\m140425_115303_create_question_table.php(13): CDbMigration->createTable('{{question}}', Array)
+#3 C:\xampp\yii\framework\cli\commands\MigrateCommand.php(385): m140425_115303_create_question_table->up()
+#4 C:\xampp\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m140425_115303_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\xampp\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\xampp\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 C:\xampp\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#10 C:\xampp\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\xampp\htdocs\Pravio.Backend\protected\yiic.php(7): require_once('C:\\xampp\\yii\\fr...')
+#12 {main}
+---
+2014/04/25 15:38:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'author_fk_user_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `pravdb_question` DROP FOREIGN KEY `author_fk_user_id`.
+2014/04/25 15:38:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'author_fk_user_id'; check that column/key exists. The SQL statement executed was: ALTER TABLE `pravdb_question` DROP FOREIGN KEY `author_fk_user_id`' in C:\xampp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1447): CDbCommand->execute()
+#1 C:\xampp\yii\framework\db\CDbMigration.php(361): CDbCommand->dropForeignKey('author_fk_user_...', '{{question}}')
+#2 C:\xampp\htdocs\Pravio.Backend\protected\migrations\m140425_115303_create_question_table.php(20): CDbMigration->dropForeignKey('author_fk_user_...', '{{question}}')
+#3 C:\xampp\yii\framework\cli\commands\MigrateCommand.php(410): m140425_115303_create_question_table->down()
+#4 C:\xampp\yii\framework\cli\commands\MigrateCommand.php(181): MigrateCommand->migrateDown('m140425_115303_...')
+#5 [internal function]: MigrateCommand->actionRedo(Array)
+#6 C:\xampp\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\xampp\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 C:\xampp\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#10 C:\xampp\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\xampp\htdocs\Pravio.Backend\protected\yiic.php(7): require_once('C:\\xampp\\yii\\fr...')
+#12 {main}
+---
+2014/04/25 15:39:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'pravio.pravdb_question'. The SQL statement executed was: DROP TABLE `pravdb_question`.
+2014/04/25 15:39:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'pravio.pravdb_question'. The SQL statement executed was: DROP TABLE `pravdb_question`' in C:\xampp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\yii\framework\db\CDbCommand.php(1347): CDbCommand->execute()
+#1 C:\xampp\yii\framework\db\CDbMigration.php(258): CDbCommand->dropTable('{{question}}')
+#2 C:\xampp\htdocs\Pravio.Backend\protected\migrations\m140425_115303_create_question_table.php(22): CDbMigration->dropTable('{{question}}')
+#3 C:\xampp\yii\framework\cli\commands\MigrateCommand.php(410): m140425_115303_create_question_table->down()
+#4 C:\xampp\yii\framework\cli\commands\MigrateCommand.php(181): MigrateCommand->migrateDown('m140425_115303_...')
+#5 [internal function]: MigrateCommand->actionRedo(Array)
+#6 C:\xampp\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\xampp\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 C:\xampp\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 C:\xampp\yii\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#10 C:\xampp\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\xampp\htdocs\Pravio.Backend\protected\yiic.php(7): require_once('C:\\xampp\\yii\\fr...')
+#12 {main}
+---
+2014/04/25 15:56:44 [error] [exception.CException] exception 'CException' with message 'Property "Question.rememberMe" is not defined.' in C:\xampp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('rememberMe')
+#1 C:\xampp\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('rememberMe')
+#2 C:\xampp\yii\framework\web\helpers\CHtml.php(1743): CHtml::resolveValue(Object(Question), 'rememberMe')
+#3 C:\xampp\yii\framework\web\widgets\CActiveForm.php(831): CHtml::activeCheckBox(Object(Question), 'rememberMe', Array)
+#4 C:\xampp\htdocs\Pravio.Backend\protected\modules\question\views\ask\index.php(41): CActiveForm->checkBox(Object(Question), 'rememberMe')
+#5 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#9 C:\xampp\htdocs\Pravio.Backend\protected\modules\question\controllers\AskController.php(15): CController->render('index', Array)
+#10 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): AskController->actionIndex()
+#11 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('question/ask')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Pravio.Backend\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Pravio.Backend/index.php/question/ask
+---
