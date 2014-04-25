@@ -1,0 +1,56 @@
+table.detail-view .null
+{
+	color: pink;
+}
+
+.detail-view
+{
+	max-width: 100px !important;
+        width: 100px !important;
+}
+
+table.detail-view th, table.detail-view td
+{
+	font-size: 0.9em;
+	border: 1px #0a6886 solid;
+	padding: 0.3em 0.6em;
+	vertical-align: top;
+}
+
+table.detail-view th
+{
+    width: 200px !important;
+}
+
+table.detail-view td
+{
+    width: 800px !important;
+}
+
+table.detail-view th
+{
+	text-align: right;
+
+}
+
+table.detail-view tr.odd
+{
+	background:#f2f2f2;
+}
+
+table.detail-view tr.even
+{
+	background:#f2f2f2;
+}
+
+table.detail-view tr.odd th
+{
+    background:#0a6886;
+    color: #eeeeee; 
+}
+
+table.detail-view tr.even th
+{
+    background:#0a6886;
+    color: #eeeeee;    
+}
