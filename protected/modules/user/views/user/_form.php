@@ -23,12 +23,19 @@ if(isset($profile) && $profile !== false)
 echo $form->dropDownList($model, 'superuser',YumUser::itemAlias('AdminStatus'));
 echo $form->error($model, 'superuser'); ?>
 </div>
-
+    
 <div class="row">
 <?php echo $form->labelEx($model,'status');
 echo $form->dropDownList($model,'status',YumUser::itemAlias('UserStatus'));
 echo $form->error($model,'status'); ?>
 </div>
+    
+<div class="row">
+<?php echo $form->labelEx($model, 'isLawyer');
+echo $form->dropDownList($model, 'isLawyer',YumUser::itemAlias('LawyerStatus'));
+echo $form->error($model, 'isLawyer'); ?>
+</div>
+    
 <?php if(Yum::hasModule('role')) { 
 	Yii::import('application.modules.role.models.*');
 ?>

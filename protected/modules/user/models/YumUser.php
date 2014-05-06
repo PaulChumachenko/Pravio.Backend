@@ -265,6 +265,7 @@ class YumUser extends YumActiveRecord
 				'message' => Yum::t($usernameRequirements['dontMatchMessage']));
 		$rules[] = array('status', 'in', 'range' => array(0, 1, 2, 3, -1, -2));
 		$rules[] = array('superuser', 'in', 'range' => array(0, 1));
+                $rules[] = array('isLawyer', 'in', 'range' => array(0, 1));
 		//$rules[] = array('username, createtime, lastvisit, lastpasswordchange, superuser, status', 'required');
                 $rules[] = array('createtime, lastvisit, lastpasswordchange, superuser, status', 'required');
 		$rules[] = array('notifyType, avatar', 'safe');
@@ -665,6 +666,7 @@ class YumUser extends YumActiveRecord
 				'superuser' => Yum::t("Superuser"),
 				'status' => Yum::t("Status"),
 				'avatar' => Yum::t("Avatar image"),
+                                'isLawyer' => Yum::t("Lawyer"),
 				);
 	}
 	
@@ -701,6 +703,10 @@ class YumUser extends YumActiveRecord
 					'-2' => Yum::t('Deleted'),
 					),
 				'AdminStatus' => array(
+					'0' => Yum::t('No'),
+					'1' => Yum::t('Yes'),
+					),
+                                 'LawyerStatus' => array(
 					'0' => Yum::t('No'),
 					'1' => Yum::t('Yes'),
 					),

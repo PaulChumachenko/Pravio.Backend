@@ -11,7 +11,7 @@ class YumUserController extends YumController {
 					'users'=>array('*'),
 					),
 				array('allow',
-					'actions'=>array('profile', 'logout', 'changepassword', 'passwordexpired', 'delete', 'browse'),
+					'actions'=>array('profile', 'logout', 'changepassword', 'passwordexpired', 'delete', 'browse', 'BecomeLawyer'),
 					'users'=>array('@'),
 					),
 				array('allow',
@@ -225,16 +225,37 @@ class YumUserController extends YumController {
 			$model->validate();
 
 			
-
-			if(!$model->hasErrors()	&& !$passwordform->hasErrors()) 
-                            {
-                                    $model->save();
-                                    if(isset($profile)) {
-                                            $profile->user_id = $model->id;
-                                            $profile->save(array('user_id'), false);
-                                    }
-                                    $this->redirect(array('view', 'id'=>$model->id));
-                            }
+                        if(isset($profile))
+                                {
+                                    if(!$model->hasErrors() && !$passwordform->hasErrors() && !$profile->hasErrors()) 
+								{
+                                                                $model->save();                                                                    
+                                                                $profile->user_id = $model->id;
+                                                                $profile->save(array('user_id'), false);                                                                   
+                                                                $this->redirect(array('view', 'id'=>$model->id));
+								}
+                                }
+                                else
+                                {
+                                    if(!$model->hasErrors() && !$passwordform->hasErrors()) 
+								{
+                                                                $model->save();
+                                                                    if(isset($profile)) {
+                                                                                    $profile->user_id = $model->id;
+                                                                                    $profile->save(array('user_id'), false);
+                                                                    }
+                                                                $this->redirect(array('view', 'id'=>$model->id));
+								}
+                               }				
+//			if(!$model->hasErrors()	&& !$passwordform->hasErrors()) 
+//                            {
+//                                    $model->save();
+//                                    if(isset($profile)) {
+//                                            $profile->user_id = $model->id;
+//                                            $profile->save(array('user_id'), false);
+//                                    }
+//                                    $this->redirect(array('view', 'id'=>$model->id));
+//                            }
 		}
 
 		$this->render('create',array(
@@ -413,5 +434,7 @@ class YumUserController extends YumController {
 		}
 		return $this->_model;
 	}
+        
+        
 
 }

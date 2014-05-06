@@ -3059,3 +3059,263 @@ Stack trace:
 #16 {main}
 REQUEST_URI=/yum/index.php?r=user/lawyer/becomelawyer
 ---
+2014/04/29 14:18:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/becomeLawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/becomeLawy...')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=user/becomeLawyer
+HTTP_REFERER=http://localhost/yum/index.php?r=profile/profile/view&id=1
+---
+2014/04/29 14:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/becomeLawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/becomeLawy...')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=user/becomeLawyer
+HTTP_REFERER=http://localhost/yum/index.php?r=profile/profile/view&id=1
+---
+2014/04/29 14:23:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\OpenServer\domains\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(YumWebUser), 'You are not aut...')
+#1 C:\OpenServer\domains\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\OpenServer\domains\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\OpenServer\domains\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('becomeLawyer')
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user/becom...')
+#9 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yum/index.php?r=user/user/becomeLawyer
+HTTP_REFERER=http://localhost/yum/index.php?r=profile/profile/view&id=1
+---
+2014/04/29 16:06:29 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\OpenServer\domains\localhost\YUM\protected\views\site\become_lawyer.php on line 4 and defined (C:\OpenServer\domains\yii\framework\YiiBase.php:571)
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\OpenServer\domains\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\OpenServer\domains\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php(112): SiteController->render()
+#4 C:\OpenServer\domains\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionBecomeLawyer()
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\OpenServer\domains\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\OpenServer\domains\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\OpenServer\domains\localhost\YUM\index.php(13): CWebApplication->run()
+REQUEST_URI=/yum/index.php?r=site/becomelawyer
+in C:\OpenServer\domains\localhost\YUM\protected\views\site\become_lawyer.php (4)
+in C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php (112)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/29 16:08:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indx".' in C:\OpenServer\domains\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CController.php(270): CController->missingAction('indx')
+#1 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('indx')
+#2 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/indx')
+#3 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yum/index.php?r=site/indx
+---
+2014/04/29 16:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "becomeLawyer".' in C:\OpenServer\domains\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CController.php(270): CController->missingAction('becomeLawyer')
+#1 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('becomeLawyer')
+#2 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user/becom...')
+#3 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yum/index.php?r=user/user/becomeLawyer
+HTTP_REFERER=http://localhost/yum/index.php?r=profile/profile/view&id=1
+---
+2014/04/29 16:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "siter/becomeLawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('siter/becomeLaw...')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=siter/becomeLawyer
+---
+2014/04/29 16:08:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "siter/becomeLawyer".' in C:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('siter/becomeLaw...')
+#1 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yum/index.php?r=siter/becomeLawyer
+---
+2014/04/29 16:10:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pravio.mymodel' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `MyModel`.
+in C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php (112)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/29 16:10:33 [error] [exception.CDbException] exception 'CDbException' with message 'The table "MyModel" for active record class "MyModel" cannot be found in the database.' in C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(MyModel))
+#1 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php(112): CActiveRecord->__construct()
+#3 C:\OpenServer\domains\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionBecomeLawyer()
+#4 C:\OpenServer\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('becomeLawyer')
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/becomeLawy...')
+#9 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yum/index.php?r=site/becomeLawyer
+---
+2014/04/29 16:11:34 [error] [php] include(MyModel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\OpenServer\domains\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php(112): spl_autoload_call()
+#1 C:\OpenServer\domains\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionBecomeLawyer()
+#2 C:\OpenServer\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\localhost\YUM\index.php(13): CWebApplication->run()
+REQUEST_URI=/yum/index.php?r=site/becomeLawyer
+in C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php (112)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/29 16:11:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pravio.request' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `Request`.
+in C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php (112)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/29 16:11:59 [error] [exception.CDbException] exception 'CDbException' with message 'The table "Request" for active record class "Request" cannot be found in the database.' in C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Request))
+#1 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php(112): CActiveRecord->__construct()
+#3 C:\OpenServer\domains\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionBecomeLawyer()
+#4 C:\OpenServer\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('becomeLawyer')
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/becomeLawy...')
+#9 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yum/index.php?r=site/becomeLawyer
+---
+2014/04/29 16:13:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pravio.request' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `request`.
+in C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php (112)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/29 16:13:36 [error] [exception.CDbException] exception 'CDbException' with message 'The table "request" for active record class "request" cannot be found in the database.' in C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(request))
+#1 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php(112): CActiveRecord->__construct()
+#3 C:\OpenServer\domains\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionBecomeLawyer()
+#4 C:\OpenServer\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('becomeLawyer')
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/becomeLawy...')
+#9 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yum/index.php?r=site/becomeLawyer
+---
+2014/04/29 16:15:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pravio.request' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `Request`.
+in C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php (112)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/29 16:15:35 [error] [exception.CDbException] exception 'CDbException' with message 'The table "Request" for active record class "Request" cannot be found in the database.' in C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Request))
+#1 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php(112): CActiveRecord->__construct()
+#3 C:\OpenServer\domains\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionBecomeLawyer()
+#4 C:\OpenServer\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('becomeLawyer')
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/becomeLawy...')
+#9 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yum/index.php?r=site/becomeLawyer
+---
+2014/04/29 16:15:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pravio.request' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `Request`.
+in C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php (112)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/04/29 16:15:36 [error] [exception.CDbException] exception 'CDbException' with message 'The table "Request" for active record class "Request" cannot be found in the database.' in C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Request))
+#1 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\OpenServer\domains\localhost\YUM\protected\controllers\SiteController.php(112): CActiveRecord->__construct()
+#3 C:\OpenServer\domains\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionBecomeLawyer()
+#4 C:\OpenServer\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('becomeLawyer')
+#8 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/becomeLawy...')
+#9 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yum/index.php?r=site/becomeLawyer
+---
+2014/05/03 10:34:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'. The SQL statement executed was: INSERT INTO `pravdb_user` (`activationKey`, `createtime`, `lastvisit`, `lastaction`, `lastpasswordchange`, `superuser`, `status`, `notifyType`, `isLawyer`, `username`, `password`, `salt`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11).
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumUserController.php (231)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/05/03 10:34:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'. The SQL statement executed was: INSERT INTO `pravdb_user` (`activationKey`, `createtime`, `lastvisit`, `lastaction`, `lastpasswordchange`, `superuser`, `status`, `notifyType`, `isLawyer`, `username`, `password`, `salt`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11)' in C:\OpenServer\domains\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumUserController.php(231): CActiveRecord->save()
+#3 C:\OpenServer\domains\yii\framework\web\actions\CInlineAction.php(49): YumUserController->actionCreate()
+#4 C:\OpenServer\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\OpenServer\domains\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\OpenServer\domains\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\OpenServer\domains\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user/creat...')
+#14 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yum/index.php?r=user/user/create
+HTTP_REFERER=http://localhost/yum/index.php?r=user/user/create
+---
+2014/05/03 10:43:47 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'. The SQL statement executed was: INSERT INTO `pravdb_user` (`activationKey`, `createtime`, `lastvisit`, `lastaction`, `lastpasswordchange`, `superuser`, `status`, `notifyType`, `isLawyer`, `username`, `password`, `salt`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11).
+in C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumUserController.php (231)
+in C:\OpenServer\domains\localhost\YUM\index.php (13)
+2014/05/03 10:43:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'. The SQL statement executed was: INSERT INTO `pravdb_user` (`activationKey`, `createtime`, `lastvisit`, `lastaction`, `lastpasswordchange`, `superuser`, `status`, `notifyType`, `isLawyer`, `username`, `password`, `salt`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11)' in C:\OpenServer\domains\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\OpenServer\domains\localhost\YUM\protected\modules\user\controllers\YumUserController.php(231): CActiveRecord->save()
+#3 C:\OpenServer\domains\yii\framework\web\actions\CInlineAction.php(49): YumUserController->actionCreate()
+#4 C:\OpenServer\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\OpenServer\domains\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\OpenServer\domains\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\OpenServer\domains\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\OpenServer\domains\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user/creat...')
+#14 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yum/index.php?r=user/user/create
+HTTP_REFERER=http://localhost/yum/index.php?r=user/user/create
+---
+2014/05/06 12:58:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "becomeLawyer".' in C:\OpenServer\domains\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii\framework\web\CController.php(270): CController->missingAction('becomeLawyer')
+#1 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('becomeLawyer')
+#2 C:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user/becom...')
+#3 C:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\YUM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yum/index.php?r=user/user/becomeLawyer
+HTTP_REFERER=http://localhost/yum/index.php?r=profile/profile/view&id=1
+---

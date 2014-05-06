@@ -58,9 +58,13 @@ if(Yii::app()->user->isAdmin()) {
 			'name' => Yum::t('Activation link'),
 			'value' =>$model->getActivationUrl()),
 		array(
-				'name' => 'status',
+			'name' => 'status',
 			'value' => YumUser::itemAlias("UserStatus",$model->status),
-			)
+			),
+                array(
+                        'name' => 'isLawyer',
+			'value' => YumUser::itemAlias("LawyerStatus",$model->isLawyer),
+                        )
 		);
 
 	$this->widget('zii.widgets.CDetailView', array(

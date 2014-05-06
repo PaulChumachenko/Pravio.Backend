@@ -106,4 +106,44 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+        
+        public function actionBecomeLawyer()
+        {
+             $model = new RequestDocument;
+             $request = new Request;
+            // uncomment the following code to enable ajax-based validation
+            /*
+            if(isset($_POST['ajax']) && $_POST['ajax']==='request-document-lawyer_request-form')
+            {
+                echo CActiveForm::validate($model);
+                Yii::app()->end();
+            }
+            */
+
+            if(isset($_POST['RequestDocument']))
+            {
+                $model->attributes=$_POST['RequestDocument'];
+                $model->id_document=CUploadedFile::getInstance($model,'document');
+                if($model->validate())
+                {   
+                    //$request->user_id 
+                    if($model->save())
+                        {
+                        $model->id_document->saveAs('path/to/localFile');                    
+                        }
+                        
+                }
+            }
+            $this->render('lawyer_request',array('model'=>$model));
+            
+                        
+                //$modMyModel->id_image=CUploadedFile::getInstance($modMyModel,'image');
+                
+                    // перенаправляем на страницу, где выводим сообщение об
+                    // успешн   ой загрузке
+             //   }
+           // }
+            //$this->render('crea', array('model'=>$modMyModel));
+            //$this->render('become_lawyer', array('model'=>$modMyModel));
+        }
 }

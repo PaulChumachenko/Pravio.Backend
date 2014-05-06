@@ -30,7 +30,6 @@ $this->renderPartial('/message/write_a_message', array(
 <div class="clear"></div>
 
 <?php
-echo $model->isLawyer() ? "<h2>I'm a LAWYER</h2>" : "<h2>Fucking lawyer</h2>" ;
 if(Yum::module('profile')->enableProfileComments
 		&& Yii::app()->controller->action->id != 'update'
 		&& isset($model->profile))
@@ -39,8 +38,14 @@ if(Yum::module('profile')->enableProfileComments
  </div>
 
 <?
- if(!Yii::app()->user->isGuest && Yii::app()->user->id == $model->id) {
-	echo CHtml::link(Yum::t('Edit profile'), array('//profile/profile/update'));
+ if(!Yii::app()->user->isGuest && Yii::app()->user->id == $model->id) {     
+        if($model->isLawyer())
+            echo Yum::t("<h2>You are a lawyer.</h2>");
+        else
+            echo CHtml::link(Yum::t("Become a lawyer"), array('//user/user/becomeLawyer'));
+        
+	echo "<br />";
+        echo CHtml::link(Yum::t('Edit profile'), array('//profile/profile/update'));
 	echo '&nbsp;';
 	echo CHtml::link(Yum::t('Upload avatar image'), array('//avatar/avatar/editAvatar'));
 }

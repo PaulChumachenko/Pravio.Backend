@@ -81,7 +81,6 @@ class YumProfileController extends YumController {
 	public function loadModel($id = null) {
 		if(!$id)
 			$id = Yii::app()->user->id;
-
 		if(is_numeric($id))
 			return $this->_model = YumUser::model()->findByPk($id);
 		else if(is_string($id))
@@ -99,7 +98,7 @@ class YumProfileController extends YumController {
 
 		$view = Yum::module('profile')->profileView;
 
-		$this->loadModel($id);
+		$this->loadModel($id);                
 		$this->updateVisitor(Yii::app()->user->id, $id);
 
 		if(Yii::app()->request->isAjaxRequest)
